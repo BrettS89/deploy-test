@@ -5,6 +5,6 @@ services:
     mem_limit: 300m
     hostname: api
     ports:
-      - "4000:4000"
+      - "80:5000"
     environment:
       - PORT=8081
