@@ -8,4 +8,4 @@ services:
       - "80:5000"
     environment:
       - PORT=5000
-        HELLOTHERE=$HELLOTHERE
+      - HELLOTHERE=$HELLOTHERE
