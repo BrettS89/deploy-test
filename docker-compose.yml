@@ -1,0 +1,10 @@
+version: '3'
+services:
+  api:
+    image: 'bretts89/k8-api'
+    mem_limit: 300m
+    hostname: api
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
