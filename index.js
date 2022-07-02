@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/api', (req, res) => {
-	res.json({ message: 'success' });
+	res.json({ message: process.env.HELLOTHERE });
 })
 
 const port = process.env.PORT;
